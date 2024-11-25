@@ -1,0 +1,65 @@
+install gitbash
+
+check version in cmd  : git --version
+
+go to desired directory or create new directory(folder): 
+mkdir <foldername>
+
+to go to that folder : cd <foldername>
+
+-------------------
+
+to get list of configure:
+git config --list
+
+-------------
+
+to create git repository:
+git init
+
+--------------
+> add some file in the repository folder
+>to get list of files in the repo: ls
+-------------
+> to read the file in repo:
+cat <filename>.<extension>
+--------
+>to add files to branch:
+git add <filename>.<extension>
+
+git add --all
+-----------------
+to check repo status: 
+git status
+git status --short
+displays all uncommited but stagged folders if not commited
+------------
+
+commit:
+
+git commit
+git commit -m "message"
+git commit -a
+git commit -am "message"
+git commit -a -m "message"
+
+Both commands are shorthand for combining the -a and -m options:
+
+-a:
+
+Stages all modified and deleted files (but not new, untracked files) before committing.
+Equivalent to running git add for all tracked files.
+
+-m:
+
+Allows you to provide the commit message inline without opening an editor.
+
+====================================
+
+git help
+git help --all
+==========
+
+
+
+
